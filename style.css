@@ -26,7 +26,7 @@ header {
     height: 50px;
     border: 1px solid black;
     font-size: 20px;
-    background-color: lightblue;
+    background-color: #2E8B57;
 }
 /*button for search*/
 .go {
@@ -58,7 +58,7 @@ header {
   left: 0;
   width: 0;
   height: 100%;
-  background: lightblue;
+  background: #2E8B57;
   transition: all .35s;
   color: white;
 }
@@ -77,7 +77,7 @@ position: fixed;
 width: 100%;
 bottom: 0px;
 height: 50px;
-background-color: lightblue;
+background-color: #2E8B57;
 display: flex;
 align-items: center;
 justify-content: flex-end;
@@ -100,7 +100,8 @@ ul {
   text-decoration: none;
 }
 .login:hover {
-  color: lightblue;
+  color: #2E8B57;
+
   
 }
 /*sign up*/
@@ -116,7 +117,7 @@ ul {
 }
 
 .signUp-container h1 {
-  color: lightblue;
+  color: #2E8B57;
 }
 .signUp-container input {
   width: 200px;
@@ -126,7 +127,7 @@ ul {
   font-size: 16px;
 }
 .signUp-container a {
-  color: lightblue;
+  color: #2E8B57;
 }
 /*product*/
 .space {
@@ -187,9 +188,11 @@ blockquote:before {
   text-align: center;
   margin-bottom: 50px;
   font-size: 50px;
+  color: #2E8B57;
 }
 .person h2 {
   margin-left: 15px;
+  
 }
 
 
