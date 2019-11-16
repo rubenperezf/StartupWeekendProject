@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src='./main.js'></script>
-    <title>Document</title>
-</head>
-<body>
-    <input id="searchbar" value=""></input>
-    <button type="button" onclick="displayInside()"></button>
+<html>
+    <head>
+        <title>Simplifai</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Simplifai team">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
 
-    <div id="inside">
+    </head>
+    <body id="first-page">
+        <header>
+            <div class="image-logo-container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/simplifai-logo.png" alt="Simplifai logo"/></a>
+                </div>
+                <div>
+                    <a class="login" href="login.html">Sign In</a>
+                </div>
+            </div>
+                <div class='form-row searchbar'>
+                        <label for='searchbar'></label>
+                        <input id='searchbar' name='full-name' type='text'/>
+                </div>
+                <div class="form-row">
+                    <a onclick="displayInside()" class="go" href="#"><span>Go!</span></a>
+                </div>
+                
+        </header>
+        <div class="space" id="inside">
+
+        </div>
+        <footer>
+            <a class="about-us" href="about-us.html">About us</a>
+
+
+        </footer>
         
-    </div>
-    
-</body>
+
+    </body>
 </html>

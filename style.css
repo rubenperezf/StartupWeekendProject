@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/*header*/
+
+header {
+    margin: 20px 50px;
+    
+}
+.image-logo-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-row {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+.searchbar  input{
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: lightblue;
+}
+/*button for search*/
+.go {
+  margin-top: 10px;
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.go span {
+  position: relative;
+  z-index: 2;
+}
+
+.go:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: lightblue;
+  transition: all .35s;
+}
+
+.go:hover{
+  color: #fff;
+}
+
+.go:hover:after{
+  width: 100%;
+}
+
+/*footer*/
+footer {
+position: absolute;
+width: 100%;
+bottom: 0px;
+height: 50px;
+background-color: lightblue;
+}
+ul {
+  list-style: none;
+}
+footer{
+
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+ padding-right: 35px;
+}
+.about-us {
+  text-decoration: none;
+  color: black;
+}
+.about-us:hover {
+  color: white;
+}
+/*login*/
+.login {
+  color: black;
+  text-decoration: none;
+}
+.login:hover {
+  color: lightblue;
+  
+}
+/*sign up*/
+.signUp-container {
+  width: 500px;
+  margin: 0px auto;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.signUp-container .form-row {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.signUp-container h1 {
+  color: lightblue;
+}
+.signUp-container input {
+  width: 150px;
+  margin-left: 10px;
+}
+.signUp-container p {
+  font-size: 16px;
+}
+.signUp-container a {
+  color: lightblue;
+}
+/*product*/
+.space {
+  margin-left: 100px;
+}
+.space img {
+  height: 200px;
+  
+}
+
+
+
+

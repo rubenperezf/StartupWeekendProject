@@ -1,12 +1,13 @@
+
 const products = {
     macbookair: {
         title: "Macbook Air",
-        imageurl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gold-select-201810?wid=892&hei=820&&qlt=80&.v=1541713859040",
+        imageurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8q3B_-j5MEv-MI2DMb5fR-ZZGiXNOCeqwSG35GBrFFizO_I7f&s",
         price: "$1200"
     },
     macbookpro: {
         title: "Macbook Pro",
-        imageurl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-silver-select-201807?wid=892&hei=820&&qlt=80&.v=1529520056377",
+        imageurl: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp13touch-space-select-201807?wid=904&hei=840&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1529520060550",
         price: "$1200"
     }
 }
