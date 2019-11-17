@@ -21,7 +21,7 @@ const products = {
    "hppavilion": {
        title: 'HP Pavilion',
        quality: 'college',
-       imageurl: 'https://images.qvc.com/is/image/e/04/e232304.001',
+       imageurl: 'https://images.kogan.com/image/fetch/s--4ugg8yMU--/b_white,c_pad,f_auto,h_502,q_auto:good,w_753/https://assets.kogan.com/files/product/HKI/KAMBAMQD32_1.jpg',
        price: '$599'
    },
    "dellInspiron": {
