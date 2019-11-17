@@ -44,14 +44,14 @@ const products = {
     },
     "canoncamera": {
         title: 'Canon Camera',
-        quality: 'video',
+        quality: ['video', 'whale'],
         imageurl: 'https://images-na.ssl-images-amazon.com/images/I/81naihI0PmL._SL1500_.jpg',
         price:'$598',
         buylink: 'https://www.amazon.com/gp/product/B00894YWD0'
     },
     "nikoncamera": {
         title: 'Nikon Camera',
-        quality: ['portraits','disney'],
+        quality: ['portraits','disney','whale'],
         imageurl: 'https://images-na.ssl-images-amazon.com/images/I/91czOt2U%2BQL._SL1500_.jpg',
         price:'$226',
         buylink: 'https://www.amazon.com/gp/product/B0073HSH8U'
