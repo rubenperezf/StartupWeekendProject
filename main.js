@@ -3,63 +3,63 @@ const products = {
     "nikoncoolpix": {
         title: 'Nikon CoolPix Camera',
         quality: 'disney',
-        imageurl: './images/nikoncoolpix.jpg',
+        imageurl: 'https://images-na.ssl-images-amazon.com/images/I/91czOt2U%2BQL._SL1500_.jpg',
         price:'$175',
         buylink: 'https://www.amazon.com/gp/product/B00BOZCUG2'
     },
     "canonpowershot": {
         title: 'Canon PowerShot',
         quality: 'disney',
-        imageurl: './images/canonpowershot.jpg',
+        imageurl: 'https://www.adorama.com/images/Large/icasx70.jpg',
         price:'$79',
         buylink: 'https://www.amazon.com/gp/product/B00908BMVE'
     },
     "olympuscamera": {
         title: 'Olympus Camera',
         quality: 'disney',
-        imageurl: './images/olympuscamera.jpg',
+        imageurl: 'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5044/5044300ld.jpg',
         price:'$185',
         buylink: 'https://www.amazon.com/gp/product/B00803WNOK'
     },
     "griffin": {
         title: 'Griffin iPad Cover',
         quality: 'frisbee',
-        imageurl: './images/griffin.jpg',
+        imageurl: 'https://images-na.ssl-images-amazon.com/images/I/81xrzgXeqUL._SX425_.jpg',
         price:'$60',
         buylink: 'https://www.amazon.com/gp/product/B007XOQ3BQ'
     },
     "amzer": {
         title: 'Amzer iPad Cover',
         quality: 'frisbee',
-        imageurl: './images/amzer.jpg',
+        imageurl: 'https://rukminim1.flixcart.com/image/832/832/j45wn0w0/cases-covers/back-cover/f/r/v/amzer-amz202275-original-imaev5ff7tkxh4fb.jpeg?q=70',
         price:'$17',
         buylink: 'https://www.amazon.com/gp/product/B00966J40Q'
     },
     "smartcase": {
         title: 'Smart Case iPad Cover',
         quality: 'frisbee',
-        imageurl: './images/smartcase.jpg',
+        imageurl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQ4L2_AV1_GOLD?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1536881962737',
         price:'$14',
         buylink: 'https://www.amazon.com/gp/product/B008B6UA8M'
     },
     "canoncamera": {
         title: 'Canon Camera',
         quality: 'video',
-        imageurl: './images/canoncamera.jpg',
+        imageurl: 'https://images-na.ssl-images-amazon.com/images/I/81naihI0PmL._SL1500_.jpg',
         price:'$598',
         buylink: 'https://www.amazon.com/gp/product/B00894YWD0'
     },
     "nikoncamera": {
         title: 'Nikon Camera',
         quality: ['portraits','disney'],
-        imageurl: './images/nikoncamera.jpg',
+        imageurl: 'https://images-na.ssl-images-amazon.com/images/I/91czOt2U%2BQL._SL1500_.jpg',
         price:'$226',
         buylink: 'https://www.amazon.com/gp/product/B0073HSH8U'
     },
     "panasoniccamera": {
         title: 'Panasonic Camera',
         quality: ['whale','portraits','video'],
-        imageurl: './images/panasoniccamera.jpg',
+        imageurl: 'https://static.bhphoto.com/images/images2500x2500/1549000333_1455067.jpg',
         price:'$124',
         buylink: 'https://www.amazon.com/gp/product/B00728ZAEY'
     },

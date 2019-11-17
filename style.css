@@ -185,7 +185,7 @@ blockquote:before {
 .team {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 95%;
   margin: 60px auto;
 }
 .team-title {
@@ -194,9 +194,12 @@ blockquote:before {
   font-size: 50px;
   color: #2E8B57;
 }
-.person h2 {
-  margin-left: 15px;
-  
+
+.rol {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+
 }
 /*inside*/
 li {
